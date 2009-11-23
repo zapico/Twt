@@ -1,0 +1,47 @@
+body{
+background-image: url("/images/bg.jpg");
+background-repeat: repeat;
+font-family: "Arial";
+}
+
+#content{
+background-color: white;
+padding: 10px;
+width: 700px;
+height: auto;
+position: relative;
+top: 10px;
+margin-left: auto ;
+margin-right: auto ;
+}
+#title{
+	text-align:center;
+	margin-bottom: 50px;
+}
+.tweet{
+	position: relative;
+	width:500px;
+	height:60px;
+	margin-top:20px;
+	margin-left:80px;
+	border-bottom: dotted 1px #333;
+}
+
+.picture{
+	float:left;
+	width: 80px;
+}
+
+.text_tweet{
+	float:left;
+	width: 400px;
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+a.hover{
+	color: #333;
+	text-decoration: underline;
+}

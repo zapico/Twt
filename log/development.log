@@ -1,0 +1,667 @@
+  [4;36;1mSQL (100.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:20:54) [GET]
+
+ActionView::MissingTemplate (Missing template tweets/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (100.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (102.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:21:12) [GET]
+
+ActionView::MissingTemplate (Missing template tweets/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (99.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:21:15) [GET]
+
+ActionView::MissingTemplate (Missing template tweets/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (99.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (101.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:21:55) [GET]
+Rendering tweets/index
+Completed in 106ms (View: 99, DB: 202) | 200 OK [http://localhost/]
+  [4;36;1mSQL (99.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:23:04) [GET]
+Rendering tweets/index
+Completed in 10ms (View: 2, DB: 200) | 200 OK [http://localhost/]
+  [4;36;1mSQL (101.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:23:07) [GET]
+Rendering tweets/index
+Completed in 9ms (View: 2, DB: 201) | 200 OK [http://localhost/]
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:23:07) [GET]
+Rendering tweets/index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/]
+  [4;36;1mSQL (99.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (100.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:24:27) [GET]
+Rendering tweets/index
+Completed in 36ms (View: 27, DB: 200) | 200 OK [http://localhost/]
+  [4;36;1mSQL (99.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (100.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:25:07) [GET]
+Rendering tweets/index
+Completed in 12ms (View: 2, DB: 200) | 200 OK [http://localhost/]
+  [4;36;1mSQL (100.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:25:10) [GET]
+Rendering tweets/index
+Completed in 14ms (View: 4, DB: 200) | 200 OK [http://localhost/]
+  [4;36;1mSQL (98.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (98.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:25:34) [GET]
+Rendering template within layouts/application
+Rendering tweets/index
+Completed in 17ms (View: 9, DB: 196) | 200 OK [http://localhost/]
+  [4;36;1mSQL (102.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (100.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-23 21:25:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (101.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (102.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:26:04) [GET]
+Rendering template within layouts/application
+Rendering tweets/index
+Completed in 10ms (View: 2, DB: 204) | 200 OK [http://localhost/]
+  [4;36;1mSQL (98.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (98.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:26:46) [GET]
+
+ActionView::MissingTemplate (Missing template tweets/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (98.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (97.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:27:00) [GET]
+Rendering template within layouts/application
+Rendering tweets/index
+Completed in 22ms (View: 13, DB: 196) | 200 OK [http://localhost/]
+  [4;36;1mSQL (98.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index_old (for 127.0.0.1 at 2009-11-23 21:27:39) [GET]
+
+ActionController::UnknownAction (No action responded to index_old. Actions: index, index_static, and new):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (98.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (98.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index_static (for 127.0.0.1 at 2009-11-23 21:27:44) [GET]
+Rendering template within layouts/application
+Rendering tweets/index_static
+Completed in 31ms (View: 21, DB: 197) | 200 OK [http://localhost/tweets/index_static]
+  [4;36;1mSQL (102.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (101.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#images to png (for 127.0.0.1 at 2009-11-23 21:27:45) [GET]
+  Parameters: {"id"=>"twitter"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index, index_static, and new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#images to jpg (for 127.0.0.1 at 2009-11-23 21:27:45) [GET]
+  Parameters: {"id"=>"me"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index, index_static, and new):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (102.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (102.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index_static (for 127.0.0.1 at 2009-11-23 21:28:08) [GET]
+Rendering template within layouts/application
+Rendering tweets/index_static
+Completed in 16ms (View: 8, DB: 204) | 200 OK [http://localhost/tweets/index_static]
+  [4;36;1mSQL (100.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (102.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#images to png (for 127.0.0.1 at 2009-11-23 21:28:09) [GET]
+  Parameters: {"id"=>"twitter"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index, index_static, and new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing TweetsController#images to jpg (for 127.0.0.1 at 2009-11-23 21:28:09) [GET]
+  Parameters: {"id"=>"me"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index, index_static, and new):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (100.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index_static (for 127.0.0.1 at 2009-11-23 21:28:28) [GET]
+Rendering template within layouts/application
+Rendering tweets/index_static
+Completed in 23ms (View: 15, DB: 200) | 200 OK [http://localhost/tweets/index_static]
+  [4;36;1mSQL (101.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (102.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:30:10) [GET]
+  [4;36;1mTweet Load (99.9ms)[0m   [0;1mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;35;1mTweet Columns (102.9ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Completed in 308ms (View: 16, DB: 407) | 200 OK [http://localhost/tweets]
+  [4;36;1mSQL (99.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:37:18) [GET]
+  [4;36;1mTweet Columns (103.4ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `tweets_path' for #<ActionView::Base:0x2419400>) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |tweet| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (108.1ms)
+Rendered rescues/_request_and_response (29.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (99.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (99.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:37:55) [GET]
+  [4;35;1mTweet Columns (100.4ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `tweets_path' for #<ActionView::Base:0x24d3440>) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |tweet| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (106.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (101.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (102.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:37:58) [GET]
+  [4;36;1mTweet Columns (100.6ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `tweets_path' for #<ActionView::Base:0x265c5f0>) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |tweet| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (106.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (104.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (100.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:38:24) [GET]
+  [4;35;1mTweet Columns (100.8ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `tweets_path' for #<ActionView::Base:0x24c58b8>) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |t| %>
+4:   <%= t.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (176.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (130.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (100.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:39:34) [GET]
+  [4;36;1mTweet Columns (99.3ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `tweets_path' for #<ActionView::Base:0x264ab98>) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |t| %>
+4:   <%= t.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (108.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (97.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (98.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:40:20) [GET]
+  [4;35;1mTweet Columns (99.3ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `tweets_path' for #<ActionView::Base:0x24bb520>) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |t| %>
+4:   <%= t.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (189.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (99.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (100.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:42:29) [GET]
+  [4;36;1mTweet Columns (100.2ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `tweets_path' for #<ActionView::Base:0x26321ec>) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |f| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (108.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (103.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (100.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:42:31) [GET]
+  [4;35;1mTweet Columns (100.7ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `tweets_path' for #<ActionView::Base:0x2498944>) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |f| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (187.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:42:31) [GET]
+Rendering template within layouts/application
+Rendering tweets/new
+  [4;36;1mSQL (100.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTweet Columns (102.1ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.include?) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |f| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (111.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:42:33) [GET]
+
+ArgumentError (A copy of TweetsController has been removed from the module tree but is still active!):
+  app/controllers/tweets_controller.rb:11:in `new'
+
+Rendered rescues/_trace (73.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (101.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (101.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:42:33) [GET]
+  [4;35;1mSQL (99.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (98.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTweet Columns (107.2ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `tweets_path' for #<ActionView::Base:0x23dd2e8>) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |f| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (107.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (100.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:42:35) [GET]
+  [4;36;1mSQL (98.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (98.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTweet Columns (99.8ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `tweets_path' for #<ActionView::Base:0x2501ac0>) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |f| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (105.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (101.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (100.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:42:37) [GET]
+  [4;35;1mSQL (97.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (98.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mTweet Columns (102.9ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `tweets_path' for #<ActionView::Base:0x23beb18>) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |f| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (105.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (101.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (101.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:42:39) [GET]
+  [4;36;1mSQL (98.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTweet Columns (99.6ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `tweets_path' for #<ActionView::Base:0x24f3010>) on line #3 of app/views/tweets/new.html.erb:
+1: <h2>Update your status</h2>
+2: 
+3: <% form_for(@tweet) do |f| %>
+4:   <%= f.error_messages %>
+5:   <p>
+6:   	<p><label for="name">Your name</label><br/>
+
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (105.4ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (106.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (97.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:43:28) [GET]
+  [4;35;1mTweet Columns (103.9ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+
+ActionView::TemplateError (undefined method `name' for #<Tweet id: nil, user: nil, text: nil, created_on: nil>) on line #5 of app/views/tweets/new.html.erb:
+2: 
+3: <% form_for :tweet, :url => { :action => "update" } do |f| %>
+4:   <%= f.error_messages %>
+5:   Name: <%= f.text_field :name %><br />
+6:   Text : <%= f.text_area :text %><br />
+7: <% end %>
+
+    app/views/tweets/new.html.erb:5
+    app/views/tweets/new.html.erb:3
+    app/controllers/tweets_controller.rb:13:in `new'
+
+Rendered rescues/_trace (113.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (99.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:43:44) [GET]
+  [4;36;1mTweet Columns (100.6ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+Completed in 133ms (View: 13, DB: 300) | 200 OK [http://localhost/tweets/new]
+  [4;35;1mSQL (98.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (97.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:44:07) [GET]
+  [4;35;1mTweet Columns (101.5ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+Completed in 131ms (View: 12, DB: 297) | 200 OK [http://localhost/tweets/new]
+  [4;36;1mSQL (97.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (98.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:45:13) [GET]
+  [4;36;1mTweet Columns (98.8ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+Completed in 131ms (View: 13, DB: 295) | 200 OK [http://localhost/tweets/new]
+  [4;35;1mSQL (100.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (99.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#update (for 127.0.0.1 at 2009-11-23 21:45:16) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"AQbrMWL4iUEiP5HlfInfCsx2zZU/85y7jzJuiQ1InrQ=", "tweet"=>{"text"=>"I'm developing in ruby on rails.", "user"=>"Jorge Zapico"}}
+
+ActionController::UnknownAction (No action responded to update. Actions: create, index, index_static, and new):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (102.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (102.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-23 21:45:26) [GET]
+  [4;35;1mTweet Columns (99.1ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+Completed in 132ms (View: 13, DB: 303) | 200 OK [http://localhost/tweets/new]
+  [4;36;1mSQL (99.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (100.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2009-11-23 21:45:29) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"AQbrMWL4iUEiP5HlfInfCsx2zZU/85y7jzJuiQ1InrQ=", "tweet"=>{"text"=>"I'm developing in ruby on rails.", "user"=>"Jorge Zapico"}}
+  [4;36;1mTweet Columns (103.0ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+  [4;35;1mSQL (510.5ms)[0m   [0mBEGIN[0m
+  [4;36;1mTweet Create (101.5ms)[0m   [0;1mINSERT INTO `tweets` (`created_on`, `text`, `user`) VALUES('2009-11-23 20:45:30', 'I\'m developing in ruby on rails.', 'Jorge Zapico')[0m
+  [4;35;1mSQL (99.3ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 841ms (DB: 1015) | 302 Found [http://localhost/tweets/create]
+  [4;36;1mSQL (97.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (97.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:45:31) [GET]
+  [4;36;1mTweet Load (98.3ms)[0m   [0;1mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;35;1mTweet Columns (99.3ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Completed in 222ms (View: 7, DB: 393) | 200 OK [http://localhost/]
+  [4;36;1mSQL (100.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (98.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2009-11-23 21:45:46) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"AQbrMWL4iUEiP5HlfInfCsx2zZU/85y7jzJuiQ1InrQ=", "tweet"=>{"text"=>"I'm developing in ruby on rails.", "user"=>"Jorge Zapico"}}
+  [4;36;1mTweet Columns (101.9ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+  [4;35;1mSQL (101.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mTweet Create (0.0ms)[0m   [0;1mMysql::Error: Duplicate entry '0' for key 1: INSERT INTO `tweets` (`created_on`, `text`, `user`) VALUES('2009-11-23 20:45:46', 'I\'m developing in ruby on rails.', 'Jorge Zapico')[0m
+  [4;35;1mSQL (99.7ms)[0m   [0mROLLBACK[0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: Duplicate entry '0' for key 1: INSERT INTO `tweets` (`created_on`, `text`, `user`) VALUES('2009-11-23 20:45:46', 'I\'m developing in ruby on rails.', 'Jorge Zapico')):
+  app/controllers/tweets_controller.rb:23:in `create'
+  app/controllers/tweets_controller.rb:22:in `create'
+
+Rendered rescues/_trace (103.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (99.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2009-11-23 21:46:43) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"AQbrMWL4iUEiP5HlfInfCsx2zZU/85y7jzJuiQ1InrQ=", "tweet"=>{"text"=>"I'm developing in ruby on rails.", "user"=>"Jorge Zapico"}}
+  [4;36;1mTweet Columns (100.5ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+  [4;35;1mSQL (99.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mTweet Create (99.8ms)[0m   [0;1mINSERT INTO `tweets` (`created_on`, `text`, `user`) VALUES('2009-11-23 20:46:43', 'I\'m developing in ruby on rails.', 'Jorge Zapico')[0m
+  [4;35;1mSQL (99.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 427ms (DB: 599) | 302 Found [http://localhost/tweets/create]
+  [4;36;1mSQL (98.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (102.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:46:44) [GET]
+  [4;36;1mTweet Load (98.7ms)[0m   [0;1mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;35;1mTweet Columns (98.9ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Completed in 221ms (View: 7, DB: 398) | 200 OK [http://localhost/]
+  [4;36;1mSQL (100.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (117.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-23 21:46:58) [GET]
+  [4;36;1mTweet Load (100.4ms)[0m   [0;1mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;35;1mTweet Columns (101.5ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Completed in 225ms (View: 6, DB: 420) | 200 OK [http://localhost/]
