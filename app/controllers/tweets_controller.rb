@@ -3,6 +3,7 @@ class TweetsController < ApplicationController
   def index
     @tweets = Tweet.find(:all)
   end
+  
   def index_static
     
   end
