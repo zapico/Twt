@@ -665,3 +665,215 @@ Rendering template within layouts/application
 Rendering tweets/index
   [4;35;1mTweet Columns (101.5ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
 Completed in 225ms (View: 6, DB: 420) | 200 OK [http://localhost/]
+  [4;36;1mSQL (100.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-24 11:00:33) [GET]
+  [4;36;1mTweet Load (126.0ms)[0m   [0;1mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;35;1mTweet Columns (100.9ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Completed in 274ms (View: 30, DB: 426) | 200 OK [http://localhost/]
+  [4;36;1mSQL (100.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (100.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index_static (for 127.0.0.1 at 2009-11-24 11:01:17) [GET]
+Rendering template within layouts/application
+Rendering tweets/index_static
+Completed in 16ms (View: 8, DB: 200) | 200 OK [http://localhost/tweets/index_static]
+  [4;36;1mSQL (100.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index_static (for 127.0.0.1 at 2009-11-24 11:01:35) [GET]
+Rendering template within layouts/application
+Rendering tweets/index_static
+Completed in 17ms (View: 9, DB: 200) | 200 OK [http://localhost/tweets/index_static]
+  [4;36;1mSQL (100.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (100.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-24 11:02:13) [GET]
+  [4;36;1mTweet Columns (101.5ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+Completed in 138ms (View: 15, DB: 302) | 200 OK [http://localhost/tweets/new]
+  [4;35;1mSQL (99.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (100.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#create	 (for 127.0.0.1 at 2009-11-24 11:02:32) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"AQbrMWL4iUEiP5HlfInfCsx2zZU/85y7jzJuiQ1InrQ=", "tweet"=>{"text"=>"In class trying to get the attention of the students.", "user"=>"Jorge Zapico"}}
+
+ActionController::UnknownAction (No action responded to create	. Actions: create, index, index_static, and new):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (100.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (100.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2009-11-24 11:02:37) [GET]
+  [4;35;1mTweet Columns (102.5ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+  [4;36;1mSQL (100.8ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTweet Create (100.8ms)[0m   [0mINSERT INTO `tweets` (`created_on`, `text`, `user`) VALUES('2009-11-24 10:02:37', NULL, NULL)[0m
+  [4;36;1mSQL (99.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 486ms (DB: 604) | 302 Found [http://localhost/tweets/create]
+  [4;35;1mSQL (103.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (102.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-24 11:02:38) [GET]
+  [4;35;1mTweet Load (103.1ms)[0m   [0mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;36;1mTweet Columns (104.0ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Completed in 230ms (View: 6, DB: 412) | 200 OK [http://localhost/]
+  [4;35;1mSQL (99.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (99.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-24 11:03:02) [GET]
+  [4;35;1mTweet Columns (103.9ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+Completed in 136ms (View: 13, DB: 303) | 200 OK [http://localhost/tweets/new]
+  [4;36;1mSQL (99.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (100.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2009-11-24 11:03:04) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"AQbrMWL4iUEiP5HlfInfCsx2zZU/85y7jzJuiQ1InrQ=", "tweet"=>{"text"=>"In class trying to get the attention of the students.", "user"=>"Jorge Zapico"}}
+  [4;36;1mTweet Columns (101.2ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+  [4;35;1mSQL (100.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mTweet Create (105.7ms)[0m   [0;1mINSERT INTO `tweets` (`created_on`, `text`, `user`) VALUES('2009-11-24 10:03:04', 'In class trying to get the attention of the students.', 'Jorge Zapico')[0m
+  [4;35;1mSQL (100.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 435ms (DB: 607) | 302 Found [http://localhost/tweets/create]
+  [4;36;1mSQL (103.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (102.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-24 11:03:05) [GET]
+  [4;36;1mTweet Load (102.7ms)[0m   [0;1mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;35;1mTweet Columns (103.3ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Completed in 230ms (View: 7, DB: 413) | 200 OK [http://localhost/]
+  [4;36;1mSQL (100.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (100.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-24 11:03:20) [GET]
+  [4;36;1mTweet Columns (1067.0ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+Completed in 1096ms (View: 7, DB: 1268) | 200 OK [http://localhost/tweets/new]
+  [4;35;1mSQL (99.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (99.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2009-11-24 11:03:27) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"AQbrMWL4iUEiP5HlfInfCsx2zZU/85y7jzJuiQ1InrQ=", "tweet"=>{"text"=>"Yay!", "user"=>"Jorge Zapico"}}
+  [4;35;1mTweet Columns (101.0ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+  [4;36;1mSQL (100.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mTweet Create (100.9ms)[0m   [0mINSERT INTO `tweets` (`created_on`, `text`, `user`) VALUES('2009-11-24 10:03:28', 'Yay!', 'Jorge Zapico')[0m
+  [4;36;1mSQL (99.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 430ms (DB: 601) | 302 Found [http://localhost/tweets/create]
+  [4;35;1mSQL (100.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (99.8ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-24 11:03:29) [GET]
+  [4;35;1mTweet Load (101.5ms)[0m   [0mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;36;1mTweet Columns (101.5ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Completed in 227ms (View: 7, DB: 403) | 200 OK [http://localhost/]
+  [4;35;1mSQL (102.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (102.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-24 11:04:58) [GET]
+  [4;35;1mTweet Load (103.3ms)[0m   [0mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;36;1mTweet Columns (103.3ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+
+ActionView::TemplateError (undefined method `name' for #<Tweet:0x2546364>) on line #2 of app/views/tweets/index.html.erb:
+1: <% @tweets.each do |t| %>
+2: <p><b><%= t.name %></b> <%= t.text %></p>	
+3: <% end %>
+
+    app/views/tweets/index.html.erb:2
+    app/views/tweets/index.html.erb:1:in `each'
+    app/views/tweets/index.html.erb:1
+
+Rendered rescues/_trace (93.4ms)
+Rendered rescues/_request_and_response (2.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (100.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (102.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-24 11:05:08) [GET]
+  [4;35;1mTweet Load (100.0ms)[0m   [0mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;36;1mTweet Columns (101.3ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Completed in 232ms (View: 13, DB: 404) | 200 OK [http://localhost/]
+  [4;35;1mSQL (99.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (99.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-24 11:06:12) [GET]
+  [4;35;1mTweet Load (100.5ms)[0m   [0mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;36;1mTweet Columns (102.9ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Completed in 234ms (View: 13, DB: 402) | 200 OK [http://localhost/]
+  [4;35;1mSQL (103.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (102.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2009-11-24 11:06:28) [GET]
+  [4;35;1mTweet Columns (105.5ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+Completed in 132ms (View: 7, DB: 311) | 200 OK [http://localhost/tweets/new]
+  [4;36;1mSQL (100.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (100.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#create (for 127.0.0.1 at 2009-11-24 11:06:39) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"AQbrMWL4iUEiP5HlfInfCsx2zZU/85y7jzJuiQ1InrQ=", "tweet"=>{"text"=>"Looking better", "user"=>"Jorgito"}}
+  [4;36;1mTweet Columns (101.0ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+  [4;35;1mSQL (100.8ms)[0m   [0mBEGIN[0m
+  [4;36;1mTweet Create (101.0ms)[0m   [0;1mINSERT INTO `tweets` (`created_on`, `text`, `user`) VALUES('2009-11-24 10:06:39', 'Looking better', 'Jorgito')[0m
+  [4;35;1mSQL (103.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 433ms (DB: 606) | 302 Found [http://localhost/tweets/create]
+  [4;36;1mSQL (100.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (100.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-24 11:06:40) [GET]
+  [4;36;1mTweet Load (101.2ms)[0m   [0;1mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;35;1mTweet Columns (100.6ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Completed in 226ms (View: 7, DB: 402) | 200 OK [http://localhost/]
+  [4;36;1mSQL (100.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (99.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2009-11-24 11:10:52) [GET]
+  [4;36;1mTweet Load (100.6ms)[0m   [0;1mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;35;1mTweet Columns (101.2ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Completed in 226ms (View: 6, DB: 402) | 200 OK [http://localhost/]

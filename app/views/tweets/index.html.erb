@@ -1,3 +1,10 @@
 <% @tweets.each do |t| %>
-<%= t.text %>	
+<div class="tweet">
+	<div class="picture">
+		<img src="/images/me.jpg" alt="me">
+	</div>
+	<div class="text_tweet">	
+		<p><b><%= t.user %></b> <%= t.text %></p>
+	</div>
+</div>
 <% end %>
