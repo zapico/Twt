@@ -877,3 +877,42 @@ Rendering template within layouts/application
 Rendering tweets/index
   [4;35;1mTweet Columns (101.2ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
 Completed in 226ms (View: 6, DB: 402) | 200 OK [http://localhost/]
+  [4;36;1mSQL (140.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1067.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#index (for 127.0.0.1 at 2010-09-19 20:04:27) [GET]
+  [4;36;1mTweet Load (191.3ms)[0m   [0;1mSELECT * FROM `tweets` [0m
+Rendering template within layouts/application
+Rendering tweets/index
+  [4;35;1mTweet Columns (142.5ms)[0m   [0mSHOW FIELDS FROM `tweets`[0m
+Completed in 488ms (View: 97, DB: 1541) | 200 OK [http://localhost/]
+  [4;36;1mSQL (146.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (147.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-19 20:04:45) [GET]
+
+ActionController::RoutingError (No route matches "/new" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (139.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (141.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-19 20:04:58) [GET]
+
+ActionController::RoutingError (No route matches "/tweet/new" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (139.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (140.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TweetsController#new (for 127.0.0.1 at 2010-09-19 20:05:08) [GET]
+  [4;36;1mTweet Columns (143.5ms)[0m   [0;1mSHOW FIELDS FROM `tweets`[0m
+Rendering template within layouts/application
+Rendering tweets/new
+Completed in 238ms (View: 75, DB: 423) | 200 OK [http://localhost/tweets/new]

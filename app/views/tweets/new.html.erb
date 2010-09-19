@@ -1,8 +1,0 @@
-<h2>Update your status</h2>
-
-<% form_for :tweet, :url => { :action => "create" } do |f| %>
-  <%= f.error_messages %>
-  <p>Name:</p> <%= f.text_field :user %><br />
-  <p>Text :</p> <%= f.text_area :text %><br />
-<%= f.submit "Create" %>
-<% end %>
